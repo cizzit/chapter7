@@ -1,0 +1,21 @@
+Time,User,Executable,CommandLine,PID,Parent PID,Provileges
+20150423210620.959905+600,Femto\Stu,C:\WINDOWS\system32\notepad.exe,"C:\WINDOWS\system32\notepad.exe" ,6128,4944,N/A
+
+20150423210625.338714+600,Femto\Stu,C:\WINDOWS\system32\calc.exe,"C:\WINDOWS\system32\calc.exe" ,3936,4944,N/A
+
+Time,User,Executable,CommandLine,PID,Parent PID,Privileges
+20150423212133.575950+600,Femto\Stu,C:\WINDOWS\system32\notepad.exe,"C:\WINDOWS\system32\notepad.exe" ,4208,4944,SeChangeNotifyPrivilege!
+
+20150423212137.198138+600,Femto\Stu,C:\WINDOWS\system32\DllHost.exe,C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5},2440,760,SeChangeNotifyPrivilege!
+
+20150423212144.359596+600,Femto\Stu,C:\WINDOWS\system32\calc.exe,"C:\WINDOWS\system32\calc.exe" ,3624,4944,SeChangeNotifyPrivilege!
+
+Time,User,Executable,CommandLine,PID,Parent PID,Privileges
+20150423212208.770200+600,Femto\Stu,C:\WINDOWS\SysWOW64\DllHost.exe,C:\WINDOWS\SysWOW64\DllHost.exe /Processid:{06622D85-6856-4460-8DE1-A81921B41C4B},668,760,SeChangeNotifyPrivilege!
+
+20150423212213.013856+600,None\None,None,None,1236,760,N/A
+
+20150423212212.983900+600,None\None,None,None,1952,760,N/A
+
+20150423212213.034871+600,Femto\Stu,None,None,4272,4944,N/A
+

